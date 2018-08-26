@@ -19,7 +19,16 @@ public class GoofyNames {
 		//    HINT: Use .length() to determine the number of characters in the String.
 				  for (int i = 0; i < mario.length(); i++) {
 					String fortnite = mario.substring(i,i+1);
-				  }
+if (i%2 == 0  ) {goofyName = fortnite.toUpperCase();
+}
+
+else{ 
+
+}
+
+{
+			}
+		}
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
@@ -30,14 +39,14 @@ public class GoofyNames {
 			
 			// 6. ADD this String  (containing 1 char) to the goofyName String
 
-		
+				  
 		// 7. Use pop-up to show user their Goofy name
-
+ 
 	}
 
 	private static char[] toUpperCase() {
 		// TODO Auto-generated method stub
-		return null;
+		return null; 
 	}
 }
 
