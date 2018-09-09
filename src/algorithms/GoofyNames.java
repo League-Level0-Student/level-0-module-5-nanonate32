@@ -20,11 +20,12 @@ public class GoofyNames {
 		for (int i = 0; i < mario.length(); i++) {
 			String fortnite = mario.substring(i, i + 1);
 			if (i % 2 == 0) {
-				goofyName = fortnite.toUpperCase();
+				fortnite = fortnite.toUpperCase();
 			}
 
 			else {
-
+				fortnite = fortnite.toLowerCase();
+				
 			}
 
 			
@@ -35,7 +36,7 @@ public class GoofyNames {
 		}
 		JOptionPane.showMessageDialog(null, "Here is your goofy name:" + goofyName);  
 		// 4. Create a String variable to store the next character of the name
-		// using .substring(start, end)
+		// using .substring(start, end) 
 		// HINT: replace 'start' and 'end' to get String with character at i
 
 		// 5. Use MODULO to set this variable to upper case for EVEN characters
