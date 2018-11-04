@@ -93,18 +93,22 @@ int cars = 2;
 
 
 // If there is 1 car, use a pop-up to display the make/model of the car 
+ 
+	
 
 
 
 // If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them. 
-
+if( cars> 1) {
+	JOptionPane.showMessageDialog(null, "Your cars have 8 wheels between them.");
+}
 
 
 }
 
 void skill5() { // In a pop-up, ask the user for the name of their school 
-
-
+JOptionPane.showInputDialog("What is the name of your school?");
+JOptionPane.showMessageDialog(null, "Your school is a fantastic school.");
 
 // In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
 
