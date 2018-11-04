@@ -1,3 +1,5 @@
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class SkillPractice {
@@ -33,25 +35,29 @@ void skill1() {
 			JOptionPane.showMessageDialog(null, "Eat your Bobzillas");
 			
 		}
-
+		
 
 
 // If they are shorter than 36 inches, tell them to eat their Wheaties
-
+           
 
 
 
 }
 
 void skill2() { // Write a loop to print every third number between 1 and 30 to the console 
-
-
-
-
-
-
-
+for (int i = 3; i <30; i++) {
+if(i%3==0){
+	System.out.println(i); }
 }
+}
+
+
+
+
+
+
+
 
 void skill3() { // Get a random number that is less than 20 and print it to the console 
 
@@ -66,21 +72,24 @@ void skill3() { // Get a random number that is less than 20 and print it to the 
 
 
 }
-
+Random gen = new Random();
+int mario = gen.nextInt(20);
 void skill4() { // In a pop-up, ask the user for the city they live in 
-
+String sd  = JOptionPane.showInputDialog(null, "What city do you live in boi?");
 
 
 // If they answered "San Diego", tell them they live in America's Finest City 
-
+if(sd.equals("san diego") ) {
+	JOptionPane.showMessageDialog(null, "You live in America's stupidest city");
+}
 
 
 // Otherwise, tell them to move to San Diego 
-
-
+else {
+    JOptionPane.showMessageDialog(null, "Don't move to san diego at all costs!");    }
 
 // Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
-
+int cars = 2;
 
 
 // If there is 1 car, use a pop-up to display the make/model of the car 
